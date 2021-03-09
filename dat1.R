@@ -1,13 +1,12 @@
 library(tidyverse)
 library(rio)
 dat0 <- import("~/OneDrive - UT Health San Antonio/Desktop/Dr. Rodriguez/Tumor Enhancement/Thrombus_enhancement_dataset.xlsx")
-select_if(dat0, is.numeric)
-dat0[c(TRUE,FALSE),]
-print(dat0[c(TRUE,FALSE),])
+select_if(dat0[c(TRUE,FALSE),], is.numeric)
+#dat0[c(TRUE,FALSE),]
 
-select_if(dat0, negate(is.numeric))
-dat0[c(FALSE, TRUE),]
-print(dat0[c(FALSE, TRUE),])
+select_if(dat0[c(FALSE, TRUE),], negate(is.numeric))
+#dat0[c(FALSE, TRUE),]
+#print(dat0[c(FALSE, TRUE),])
 
 # this is for me= instead of writing all these below,  use line 4 and 5 
 #ageattot <- dat0[c(1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47), 3]
