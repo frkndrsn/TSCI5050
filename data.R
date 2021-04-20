@@ -17,5 +17,4 @@ ggplot(dat0,aes(x=c_time,fill=c_event)) + geom_histogram()
 fit0 <- survfit(Surv(c_time, c_event) ~ c_T, data = dat0) 
 plot(fit0,col = c('blue','green','red','grey'))
 legend('topright',legend=names(fit$strata), col = c('blue','green','red','grey'), lty = 1)
-fit0
 

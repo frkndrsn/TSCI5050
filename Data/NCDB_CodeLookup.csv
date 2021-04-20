@@ -1,0 +1,7 @@
+Code	Status
+NAACCR:630:0	Not Insured
+NAACCR:630:1	Private Insurance / Managed Care
+NAACCR:630:2	Medicaid
+NAACCR:630:3	Medicare
+NAACCR:630:4	Other Government
+NAACCR:630:9	Insurance Status Unknown
