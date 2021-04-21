@@ -3,3 +3,10 @@
 .RData
 .Ruserdata
 config.R
+*.xlsx
+*.csv
+*.tsv
+*.xls
+*.rdata
+*.Rdata
+*.RData
